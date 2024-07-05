@@ -1,7 +1,7 @@
 # Lista de Exercícios
 
 
-## Objetivo: Identificar de classes e atributos, além de instanciar objetos
+## Objetivo: Identificar classes e atributos, além de instanciar objetos
 
 I) Identifique ao menos 5 classes em cada escopo simplificado com seus respectivos atributos; <br>
 II) Gere o diagrama de classes usando a ferramenta PlantUML; <br>
