@@ -4,6 +4,9 @@ public class Reserva {
     private String dataRetiradaDesejada;
     private String status;
     
+    public Reserva() {
+    }
+
     public Reserva(String dataReserva, String dataRetiradaDesejada, String status) {
         this.dataReserva = dataReserva;
         this.dataRetiradaDesejada = dataRetiradaDesejada;

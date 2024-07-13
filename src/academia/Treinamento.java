@@ -7,6 +7,9 @@ public class Treinamento {
     private Instrutor instrutor;
     private Membro membro;
 
+    public Treinamento() {
+    }
+
     public Treinamento(String nomePlano, String descricao, int duracaoPlano,
             int frequenciaRecomendadatreinamento, Instrutor instrutor, Membro membro) {
         this.nomePlano = nomePlano;

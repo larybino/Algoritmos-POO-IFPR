@@ -9,6 +9,9 @@ public class Reserva {
     private String codigoReserva;
     private int quantidadeAssentos;
 
+    public Reserva() {
+    }
+
     public Reserva(Cliente cliente, Voo voo, ArrayList<ServicoExtra> servicosExtras, String codigoReserva, int quantidadeAssentos) {
         this.cliente = cliente;
         this.voo = voo;
@@ -21,7 +24,6 @@ public class Reserva {
         return quantidadeAssentos;
     }
 
-    // Getters e Setters para os demais atributos
     public Cliente getCliente() {
         return cliente;
     }

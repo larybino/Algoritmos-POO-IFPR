@@ -12,6 +12,9 @@ public class Turista {
     private List<Acomodacao> acomodacoes;
     private List<Idiomas> idiomas;
 
+    public Turista() {
+    }
+
     public Turista(String nome, String origem, String especie, String dataChegada, int periodoEstadia) {
         this.nome = nome;
         this.origem = origem;

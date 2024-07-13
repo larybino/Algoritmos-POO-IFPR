@@ -4,13 +4,14 @@ public class ServicoExtra {
     private String tipo;
     private double preco;
 
-    // Construtor
+    public ServicoExtra() {
+    }
+
     public ServicoExtra(String tipo, double preco) {
         this.tipo = tipo;
         this.preco = preco;
     }
 
-    // Getters e Setters
     public String getTipo() {
         return tipo;
     }

@@ -5,6 +5,9 @@ class Quarto {
     private String tipo;
     private boolean ocupado;
 
+    public Quarto() {
+    }
+
     public Quarto(int numero, String tipo, boolean ocupado) {
         this.numero = numero;
         this.tipo = tipo;

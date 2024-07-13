@@ -5,6 +5,9 @@ public class Documento {
     private String dataCriacao;
     private String descricao;
     
+    public Documento() {
+    }
+
     public Documento(String tituloDcumento, String tipoDocumento, String dataCriacao, String descricao) {
         this.tituloDcumento = tituloDcumento;
         this.tipoDocumento = tipoDocumento;

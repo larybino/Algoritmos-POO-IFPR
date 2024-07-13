@@ -5,6 +5,9 @@ public class Adocao {
     private String data;
     private String status;
     
+    public Adocao() {
+    }
+
     public Adocao(String adotante, String arvore, String data, String status) {
         this.adotante = adotante;
         this.arvore = arvore;

@@ -6,6 +6,10 @@ public class Livro {
     private String categoria;
 
     
+    public Livro() {
+    }
+
+
     public Livro(String titulo, String autor, String editora, String categoria) {
         this.titulo = titulo;
         this.autor = autor;

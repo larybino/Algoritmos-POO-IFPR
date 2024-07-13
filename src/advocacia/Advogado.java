@@ -7,6 +7,9 @@ public class Advogado {
     private List<Processo> processosAtribuidos;
     private int horasTrabalhadas;
     
+    public Advogado() {
+    }
+
     public Advogado(String nome, String areaEspecializacao, List<Processo> processosAtribuidos, int horasTrabalhadas) {
         this.nome = nome;
         this.areaEspecializacao = areaEspecializacao;

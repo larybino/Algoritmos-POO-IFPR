@@ -8,6 +8,9 @@ public class Processo {
     private String status;
     private List<Documento> documentosAssociados;
     
+    public Processo() {
+    }
+
     public Processo(int numeroProcesso, String descricaoCaso, String dataAbertura, String status,
     List<Documento> documentosAssociados) {
         this.numeroProcesso = numeroProcesso;

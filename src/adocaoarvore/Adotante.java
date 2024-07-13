@@ -9,6 +9,9 @@ public class Adotante {
     private List<Arvore> arvoresAdotadas;
 
 
+    public Adotante() {
+    }
+
     public Adotante(String nome, String informacoesContato, String contribuicoes) {
         this.nome = nome;
         this.informacoesContato = informacoesContato;

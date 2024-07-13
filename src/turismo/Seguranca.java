@@ -6,6 +6,9 @@ public class Seguranca {
     private String informacoesAreasSeguras;
     private String comunicacaoEmergencias;
 
+    public Seguranca() {
+    }
+
     public Seguranca(String equipeSeguranca, String protocoloSeguranca, String medidasEmergencia, String informacoesAreasSeguras, String comunicacaoEmergencias) {
         this.equipeSeguranca = equipeSeguranca;
         this.protocoloSeguranca = protocoloSeguranca;

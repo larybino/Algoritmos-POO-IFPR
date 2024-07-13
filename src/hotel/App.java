@@ -139,7 +139,7 @@ public class App {
         do {
             exibirMenuFuncionarios();
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer do scanner
+            scanner.nextLine(); 
             switch (opcao) {
                 case 1:
                     cadastrarFuncionario();
@@ -179,7 +179,7 @@ public class App {
         String departamento = scanner.nextLine();
         System.out.println("Digite o salário do funcionário:");
         double salario = scanner.nextDouble();
-        scanner.nextLine(); // Limpar o buffer do scanner
+        scanner.nextLine(); 
 
         Funcionario funcionario = new Funcionario(nome, sobrenome, cargo, horarioTrabalho, departamento, salario);
         funcionarios.add(funcionario);
@@ -206,7 +206,7 @@ public class App {
                                " | Disponibilidade: " + servico.getDisponibilidade());
         }
         int indiceServico = scanner.nextInt() - 1;
-        scanner.nextLine(); // Limpar o buffer do scanner
+        scanner.nextLine();
         Servico servicoSelecionado = servicos.get(indiceServico);
 
         System.out.println("Digite o nome do hóspede solicitante:");
@@ -232,7 +232,7 @@ public class App {
         do {
             exibirMenuRelatorios();
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer do scanner
+            scanner.nextLine(); 
             switch (opcao) {
                 case 1:
                     relatorioReservas();

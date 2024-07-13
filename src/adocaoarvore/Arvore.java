@@ -9,6 +9,9 @@ public class Arvore {
     private int idade;
     private List<Cuidado> historicoCuidados;
     
+    public Arvore() {
+    }
+
     public Arvore(String especie, String localizacao, String saude, int idade) {
         this.especie = especie;
         this.localizacao = localizacao;

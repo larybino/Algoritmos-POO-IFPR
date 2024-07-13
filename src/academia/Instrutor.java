@@ -7,6 +7,9 @@ public class Instrutor {
     private String horarioTrabalho;
     private List <Treinamento> treinamento;
     
+    public Instrutor() {
+    }
+
     public Instrutor(String nome, String horarioTrabalho) {
         this.nome = nome;
         this.horarioTrabalho = horarioTrabalho;

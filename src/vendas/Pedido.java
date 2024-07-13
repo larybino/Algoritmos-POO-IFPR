@@ -8,6 +8,9 @@ public class Pedido {
     private Date dataPedido;
     private double total;
 
+    public Pedido() {
+    }
+
     public Pedido(Cliente cliente, List<Produto> produtos) {
         this.cliente = cliente;
         this.produtos = produtos;

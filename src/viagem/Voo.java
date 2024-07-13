@@ -9,6 +9,9 @@ public class Voo {
     private double preco;
     private int assentosDisponiveis;
 
+    public Voo() {
+    }
+
     public Voo(String companhiaAerea, String origem, String destino, String horarioPartida, String horarioChegada, double preco, int assentosDisponiveis) {
         this.companhiaAerea = companhiaAerea;
         this.origem = origem;

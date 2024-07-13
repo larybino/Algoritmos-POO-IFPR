@@ -17,7 +17,7 @@ public class Vendedor {
         this.informacoesContato = informacoesContato;
         this.estatisticasVendas = estatisticasVendas;
         this.gestaoEstoque = gestaoEstoque;
-        this.produtos = new ArrayList<>(); // Inicializa a lista aqui
+        this.produtos = new ArrayList<>(); 
 
     }
 

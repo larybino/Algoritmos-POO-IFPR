@@ -81,7 +81,7 @@ public class App {
         System.out.println("Digite a descrição do grupo:");
         String descricaoGrupo = scanner.nextLine();
 
-        Grupo novoGrupo = new Grupo(nomeGrupo, descricaoGrupo, 0, 0); // Inicialmente sem membros e publicações
+        Grupo novoGrupo = new Grupo(nomeGrupo, descricaoGrupo, 0, 0); //sem membros e publicações
         grupos.add(novoGrupo);
 
         System.out.println("Grupo criado com sucesso!");
@@ -111,7 +111,7 @@ public class App {
         String dataAtual = "01/07/2024";
         String horaAtual = "12:00";
     
-        Postagem postagem = new Postagem(conteudo, dataAtual, horaAtual, 0, 0); // Inicialmente sem curtidas e comentários
+        Postagem postagem = new Postagem(conteudo, dataAtual, horaAtual, 0, 0); //sem curtidas e comentários
     
         autor.adicionarPostagem(postagem);
     
@@ -156,7 +156,7 @@ public class App {
         String dataAtual = "01/07/2024";
         String horaAtual = "12:00";
     
-        Mensagem mensagem = new Mensagem(destinatario.getNomeUsuario(), conteudo, dataAtual, horaAtual, "Enviada"); // Status inicial da mensagem
+        Mensagem mensagem = new Mensagem(destinatario.getNomeUsuario(), conteudo, dataAtual, horaAtual, "Enviada"); //status inicial da mensagem
     
         remetente.adicionarMensagem(mensagem);
     

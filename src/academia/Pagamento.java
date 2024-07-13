@@ -5,6 +5,9 @@ public class Pagamento {
     private double mensalidade;
     private String dataPagamento;
 
+    public Pagamento() {
+    }
+
     public Pagamento(Membro membro, double mensalidade, String dataPagamento) {
         this.membro = membro;
         this.mensalidade = mensalidade;

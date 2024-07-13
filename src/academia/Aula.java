@@ -6,6 +6,9 @@ public class Aula {
     private int capacidadeMaximaParticipantes;
     private Instrutor instrutor;
     
+    public Aula() {
+    }
+
     public Aula(String tipoAula, String horario, int duracao, int capacidadeMaximaParticipantes, Instrutor instrutor) {
         this.tipoAula = tipoAula;
         this.horario = horario;

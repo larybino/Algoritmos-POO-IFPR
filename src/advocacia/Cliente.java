@@ -8,6 +8,9 @@ public class Cliente {
     private String CPF;
     private List<Processo> processosAssociados;
     
+    public Cliente() {
+    }
+
     public Cliente(String nome, String informacoesContato, String endereco, String cPF, List<Processo> processosAssociados) {
         this.nome = nome;
         this.informacoesContato = informacoesContato;

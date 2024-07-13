@@ -8,6 +8,9 @@ public class Idiomas {
     private String traducoesAnteriores;
     private String atualizacoesIdiomas;
 
+    public Idiomas() {
+    }
+
     public Idiomas(ArrayList<String> idiomasSuportados, String traducaoAutomatica, ArrayList<String> dicionariosVocabulario, String traducoesAnteriores, String atualizacoesIdiomas) {
         this.idiomasSuportados = idiomasSuportados;
         this.traducaoAutomatica = traducaoAutomatica;

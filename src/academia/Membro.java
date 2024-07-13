@@ -12,6 +12,9 @@ public class Membro {
     private List <Aula> aulas;
     private Treinamento treinamento;
     
+    public Membro() {
+    }
+
     public Membro(String nome, String email, String telefone, String dataNascimento, String genero, double altura,
             double peso) {
         this.nome = nome;

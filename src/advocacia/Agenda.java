@@ -5,6 +5,9 @@ public class Agenda {
     private String descricaoCompromisso;
     private Advogado advogado;
     
+    public Agenda() {
+    }
+
     public Agenda(String data, String hora, String descricaoCompromisso, Advogado advogado) {
         this.data = data;
         this.hora = hora;

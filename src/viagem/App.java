@@ -39,7 +39,7 @@ public class App {
     }
 
     public static void popularVoos() {
-        // Simulação de voos pré-cadastrados
+        //voos pré-cadastrados
         voos.add(new Voo("LATAM", "São Paulo", "Rio de Janeiro", "08:00", "09:00", 250.0, 50));
         voos.add(new Voo("GOL", "São Paulo", "Brasília", "10:00", "12:00", 350.0, 30));
         voos.add(new Voo("Azul", "Rio de Janeiro", "Salvador", "14:00", "16:00", 450.0, 20));
@@ -73,7 +73,7 @@ public class App {
     }
 
     public static void realizarReserva() {
-        scanner.nextLine(); // Limpar o buffer do scanner
+        scanner.nextLine(); 
     
         System.out.print("Digite seu nome: ");
         String nomeCliente = scanner.nextLine();
@@ -95,7 +95,7 @@ public class App {
             Reserva reserva = new Reserva(cliente, vooSelecionado, new ArrayList<>(), codigoReserva, quantidadeAssentos);
             reservas.add(reserva);
     
-            // Atualizar a quantidade de assentos disponíveis
+            
             vooSelecionado.setAssentosDisponiveis(vooSelecionado.getAssentosDisponiveis() - quantidadeAssentos);
     
             System.out.println("Reserva realizada com sucesso!");

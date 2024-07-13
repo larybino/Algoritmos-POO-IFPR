@@ -7,6 +7,9 @@ public class Plantio {
     private String condicoesSolo;
     private String condicoesClimaticas;
     
+    public Plantio() {
+    }
+
     public Plantio(String localizacao, String especie, String dataPlantio, String responsavelPlantio,
             String condicoesSolo, String condicoesClimaticas) {
         this.localizacao = localizacao;

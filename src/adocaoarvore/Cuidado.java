@@ -4,6 +4,9 @@ public class Cuidado {
     private String data;
     private String descricao;
     
+    public Cuidado() {
+    }
+
     public Cuidado(String tipoCuidado, String data, String descricao) {
         this.tipoCuidado = tipoCuidado;
         this.data = data;

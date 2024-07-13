@@ -16,7 +16,7 @@ public class App {
         do {
             exibirMenu();
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a nova linha
+            scanner.nextLine(); 
             roteador(opcao);
         } while (opcao != 0);
     }

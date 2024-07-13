@@ -10,7 +10,7 @@ public class Cliente {
     
     public Cliente() {
         this.carrinhos = new ArrayList<>();
-        this.carrinhos.add(new Carrinho()); // Adiciona um carrinho inicial
+        this.carrinhos.add(new Carrinho()); 
     }
     
     public Cliente(String nome, String endereco, String email) {
@@ -18,7 +18,7 @@ public class Cliente {
         this.endereco = endereco;
         this.email = email;
         this.carrinhos = new ArrayList<>();
-        this.carrinhos.add(new Carrinho()); // Adiciona um carrinho inicial
+        this.carrinhos.add(new Carrinho()); 
 
     }
 
@@ -54,7 +54,7 @@ public class Cliente {
         this.carrinhos.add(carrinho);
     }
     public Carrinho getCarrinhoAtual() {
-        return carrinhos.get(0); // Retorna o primeiro carrinho para simplificação
+        return carrinhos.get(0); 
     }
 
 }

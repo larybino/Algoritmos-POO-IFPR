@@ -5,6 +5,9 @@ class Reserva {
     private String dataCheckIn;
     private String dataCheckOut;
 
+    public Reserva() {
+    }
+
     public Reserva(Hospede hospede, Quarto quarto, String dataCheckIn, String dataCheckOut) {
         this.hospede = hospede;
         this.quarto = quarto;
